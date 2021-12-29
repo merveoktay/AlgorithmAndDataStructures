@@ -318,7 +318,7 @@ namespace Apps
 		private static void Shared() { 
 			var heap = new DataStructures
 				.Heap
-				.BinaryHeap<int>( DataStructures.Shared.SortDirection.Asceding,new int[] { 54,45,36,27,29,18,21,99 });//Hata var olduğu gibi listeliyor. 5,6,7,8,9. videolara tekrar bak!!
+				.BinaryHeap<int>( DataStructures.Shared.SortDirection.Asceding,new int[] { 54,45,36,27,29,18,21,99 });
 			//Console.WriteLine(heap.DeleteMinMax() + " has ben removed.");
 			foreach (var item in heap)
 			{
